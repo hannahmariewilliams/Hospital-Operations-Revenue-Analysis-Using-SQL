@@ -43,15 +43,15 @@ These adjustments directly target the highest-impact inefficiencies in the sched
 4. Track changes in no-show rate and X-ray utilization over time to assess whether scheduling and engagement improvements translate into operational and revenue gains.
 
 ### Project Structure:
-This project is organized into sections:
-
-Chapter 1: Core KPIs
-Chapter 2: Doctors Analysis
-Chapter 3: Patient Analysis
-Chapter 4: Financial Analysis
-Chapter 5: Final Insights & Recommendations
-Hospital Dashboard - Power BI
-
+This project is organized into sections: 
+<p></p>
+Chapter 1: Core KPIs 
+Chapter 2: Doctors Analysis 
+Chapter 3: Patient Analysis 
+Chapter 4: Financial Analysis 
+Chapter 5: Final Insights & Recommendations 
+Hospital Dashboard - Power BI 
+<p></p>
 Each chapter includes SQL queries and explanations, followed by insights derived from the analysis. The dashboard is also included.
 
 Data source: [Hospital Management Dataset](https://www.kaggle.com/datasets/kanakbaghel/hospital-management-dataset)
