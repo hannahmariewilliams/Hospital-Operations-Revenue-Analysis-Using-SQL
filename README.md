@@ -1,7 +1,7 @@
 # Healthcare Data Analysis Project
 
 ## Executive Summary:
-Using SQL, I pulled patients, doctors, and financial data from the hospital database and explored the data. With Power BI, I created a dashboard displaying key metrics. As a result, I identifyied that the hospital has a high no show rate, that most scheduled appointments are check-ups and the highest grossing treatment type is X-Ray. I recommend that the hospital improves on the following:
+Using SQL, I pulled patients, doctors, and financial data from the hospital database and explored the data. Data was then transformed into an interactive Power Bi dashboard to visualize key metrics. As a result, I identifyied that the hospital has a high no show rate, that most scheduled appointments are check-ups and the highest grossing treatment type is X-Ray. I recommend that the hospital improves on the following:
 
 1. Automated reminders and/or flexible re-scheduling
 2. Dedicated time blocks for scheduling check-ups
@@ -13,7 +13,7 @@ The hospital is experiencing operational inefficiencies that impact both revenue
 ### Methodology:
 1. SQL query to perform exploratory data analysis
    
-2. Dashboard in Power BI that shows the visualizes key metrics.
+2. Dashboard in Power BI that visualizes key metrics.
 
 ### Skills:
 SQL: Joins, aggregate functions, CTEs
@@ -22,7 +22,11 @@ Power BI: calculated columns, ETL, data visualization, writing functions, Dax, d
 
 ### Results & Business Recommendation:
 The hospital is experiencing operational inefficiencies that negatively impact revenue and patient access to care. A high patient no-show rate of 26% results in underutilized appointment capacity and lost revenue opportunities. Additionally, a large share of appointments consists of routine check-ups, while X-ray services account for 28% of total revenue, indicating a misalignment between scheduling practices and revenue-driving services. Without more strategic scheduling and resource allocation, the hospital risks continued inefficiencies, reduced capacity utilization, and missed opportunities to optimize high-value services.
-
+<p></p>
+<p></p>
+<img width="3236" height="1742" alt="Screenshot 2026-06-01 201945" src="https://github.com/user-attachments/assets/99eee1da-03a9-4d1b-bfa8-51e7c6a21b39" /> 
+<p></p>
+<p></p>
 Because the hospital is experiencing a 26% patient no-show rate and a significant portion of revenue is concentrated in high-demand services like X-ray (28% of total revenue), I recommend several targeted operational adjustments:
 
 1. Implement automated appointment reminders and confirmation workflows via text and email to reduce missed appointments and improve patient attendance consistency.
@@ -38,7 +42,16 @@ These adjustments directly target the highest-impact inefficiencies in the sched
 3. Collaborate with operational staff to refine scheduling rules and validate feasibility of dedicated check-up time blocks.
 4. Track changes in no-show rate and X-ray utilization over time to assess whether scheduling and engagement improvements translate into operational and revenue gains.
 
-### How this Github project is organized:
-This project is organized into chapters starting with an overview of the data (i.e. Chapter 1: Core KPIs) and then goes on to evaluate different categories of the data (Chapter 2: Dcotors, Chapter 3: Patients etc.). In these sections, I provide the SQL queries I used and provide explanation of the queries. Finally, I end the project with insights derived from the analysis and recommendations to the hospital this is labeled as "Chapter 5: Final Insights and Recommendations".
+### Project Structure:
+This project is organized into sections:
+
+Chapter 1: Core KPIs
+Chapter 2: Doctors Analysis
+Chapter 3: Patient Analysis
+Chapter 4: Financial Analysis
+Chapter 5: Final Insights & Recommendations
+Hospital Dashboard - Power BI
+
+Each chapter includes SQL queries and explanations, followed by insights derived from the analysis. The dashboard is also included.
 
 Data source: [Hospital Management Dataset](https://www.kaggle.com/datasets/kanakbaghel/hospital-management-dataset)
